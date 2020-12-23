@@ -1,4 +1,4 @@
-1. [Bus-based communication architrecture](https://github.com/abhishekchevli/vlsiconcepts/edit/gh-pages/index.md)
+1. [Bus-based communication architrecture](https://github.com/abhishekchevli/vlsiconcepts/blob/gh-pages/bus-based-communication-architecture.md)
 
 ## Welcome to GitHub Pages
 
