@@ -78,39 +78,92 @@
 						<tbody>
 							<tr>
 								<td>
-									<img src="img/hierarchical-bus.png" alt="">
+									<img src="img/hierarchical-bus.png" alt="" width="500">
 								</td>
 							</tr>
 						</tbody>
 					</table>
-
+					<br>
 					<p>
 						A <i>ring</i> bus is actually a set of unidirectional, concentric
 						and pipelined buses which allow high frequency operation and high bandwidth
 						transfers between components on the bus.
 					</p>
-					<figure>
-						<figcaption>Fig.2 - Ring Bus</figcaption>
-						<img src="img/ring-bus.png" alt="">
-					</figure>
-					<table align="center" style="float: none">
+
+					<table class="bordered-table" align="center" style="float: none">
 						<caption>Fig.2 - Ring Bus</caption>
 						<tbody>
 							<tr>
 								<td>
-									<img src="img/ring-bus.png" alt="">
+									<img src="img/ring-bus.png" alt="" width="500">
 								</td>
 							</tr>
 						</tbody>
 					</table>
+					<br>
 					<p>
 						An <i>ad-hoc</i> bus architecture contains buses being operated at different 
 						frequencies and the components can have point-to-point links with each other, as needed.
 					</p>
-					<figure>
-						<figcaption>Fig.3 - Ad-hoc Bus</figcaption>
-						<img src="img/adhoc-bus.png" alt="">
-					</figure>
+
+					<table class="bordered-table" align="center" style="float: none">
+						<caption>Fig.3 - Ad-hoc Bus</caption>
+						<tbody>
+							<tr>
+								<td>
+									<img src="img/adhoc-bus.png" alt="" width="500">
+								</td>
+							</tr>
+						</tbody>
+					</table>
+					<br>
+
+					<p>
+						A Crossbar bus is a matrix a combination of shared bus and point-to-point interconnections.
+					</p>
+					<table class="bordered-table" align="center" style="float: none">
+						<caption>Fig.3 - Crossbar (Matrix Bus)</caption>
+						<tbody>
+							<tr>
+								<td>
+									<img src="img/crossbar-bus.png" alt="" width="500">
+								</td>
+							</tr>
+						</tbody>
+					</table>
+					<br>
+
+					<h2 id="interconnect-constituents">
+						Interconnect constituents
+					</h2>
+						<p>Each bus-based interconenct is defined by its two major constituents:</p>
+						<ul>
+							<li>topology</li>
+							<li>protocol parameters</li>
+						</ul>
+						<p>
+							The <i>topology</i> of a communication refers to how the buses are interconencted together, 
+							and how each component is mapped to others. The <i>protocol parameters</i> refer to arbitration schemes,
+							bus widths, bus clock frequencies, buffer sizes, burst transfer sizes, which are specific to
+							the protocol communication architecture.
+						</p>
+						<p>
+							<a href="characteristics-of-bus-based-interconnect.html">
+								Characteristics of a bus-based interconnect.
+							</a>
+						</p>
+
+						<p>
+							<a href="bus-data-transfer-modes.html">
+								Bus data transfer modes.
+							</a>
+						</p>
+					
+						<p>
+							<a href="bus-decoding-and-arbitration.html">
+								Bus decoding and arbitration
+							</a>
+						</p>
 					<!-- <h2 id="digital-design-basics">
 						<a href="digital-design-basics">Digital Design Basics</a>
 					</h2>
